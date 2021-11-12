@@ -8,9 +8,9 @@ TODO: To create a smart heating system/Thermostat in a house which only has a tr
 
 TODO: Write a list of things you propose to use in your work. This can be hardware, programming languages etc.
 
-Write a script which uses the command line to turn ping google weather every mooning at 6am and updates the website with the weather of the day.
+Write a script which uses the command line to turn ping google weather every mooning at 6am and updates the website with the weather of the day. These Scripts will be linked to a smartbot which is a device that makes any switch such as a light switch or the heating switch a smart switch. 
 
-Have 3 programmes to take certain actions which will be depending on the time:
+Have 3 programmes/schedules to take certain actions which will be depending on the time:
 
 6am - 7am Morning Call Wake Up: Reads in the temperature at 6am and if temp is 8-14 degrees activates heatign at 6.30am and turns it off at 7am.
 If temps is 8 degrees or lower turns on heating at 6am instead or perhaps once the desired internal house temperature has been reached. 
@@ -20,7 +20,7 @@ The temperature will be updated on the website every hour from 6am, after 7am th
 
 9pm to 6am: Night time programme: Check temperature once an hour and only activate if temperature goes below 10degrees. Sends an email when this happens as a reminder that perhaps the night time program should be adjusted if this happens often.
 
-Raspberry Pi Displays Current Programmes name in its LEDs.
+Raspberry Pi - linked with a DS18B20 temperature senseor- will read and send the temperature and will also displays the last recorded temperature.
 
 Website Similiar to weather top too- will have a house temperature chart of the previous day which displays house temperature in one line of the graph and indicates at what point the heating was turned on.
 
